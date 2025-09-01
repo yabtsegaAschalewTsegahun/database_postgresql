@@ -1120,7 +1120,7 @@ INSERT INTO "tblPLServices" ("PLServiceID", "PLServName", "DatePL", "LocationId"
 
 INSERT INTO "tblLocations"("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
 VALUES ('1',  1,   'AA',   'Addis Ababa',   NULL,   
- 'C',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ 'R',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
  NULL,   NULL,   NULL,   NULL,   N'86eafcb7-d258-41b8-884f-87b12a684bd0');
 INSERT INTO "tblLocations" 
 ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 

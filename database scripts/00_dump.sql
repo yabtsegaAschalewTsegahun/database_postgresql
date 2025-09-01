@@ -8928,7 +8928,7 @@ INSERT INTO "tblIdentificationTypes" ("IdentificationCode", "IdentificationTypes
 -- tblLocations
 INSERT INTO "tblLocations"("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", "LocationType", "ValidityFrom", "ValidityTo", "LegacyID", "AuditUserId", "MalePopulation", "FemalePopulation", "OtherPopulation", "Families", "LocationUUID")
 VALUES ('1',  1,   'AA',   'Addis Ababa',   NULL,   
- 'C',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
+ 'R',   CAST(N'2024-01-01T00:00:00.000' AS timestamptz),   NULL,   NULL,   1,   
  NULL,   NULL,   NULL,   NULL,   gen_random_uuid());
 INSERT INTO "tblLocations" 
 ("RowId", "LocationId", "LocationCode", "LocationName", "ParentLocationId", 
