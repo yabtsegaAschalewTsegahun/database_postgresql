@@ -3331,6 +3331,7 @@ INSERT INTO "tblLocations" VALUES ('875',875,'AA_AR_10_','Ketena 03',872,'V',CAS
 INSERT INTO "tblLocations" VALUES ('876',876,'AA_AR_10_','Ketena 04',872,'V',CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,NULL,NULL,NULL,NULL,gen_random_uuid());
 INSERT INTO "tblLocations" VALUES ('877',877,'AA_AR_10_','Ketena 05',872,'V',CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,NULL,NULL,NULL,NULL,gen_random_uuid());
 
+
 COMMIT;
 
 -- tblHF
