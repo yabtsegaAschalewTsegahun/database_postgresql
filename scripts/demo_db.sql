@@ -6341,7 +6341,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('818',818,'AA_AR_W01','Woreda 01',817,'W',
+VALUES ('818',818,'ARW01','Woreda 01',817,'W',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6349,7 +6349,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('819',819,'AA_AR_W01_K01','Ketena 01 of Woreda 01',818,'V',
+VALUES ('819',819,'AR1K1','Ketena 01 of Woreda 01',818,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6357,7 +6357,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('820',820,'AA_AR_W01_K02','Ketena 02 of Woreda 01',818,'V',
+VALUES ('820',820,'AR1K2','Ketena 02 of Woreda 01',818,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6365,7 +6365,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('821',821,'AA_AR_W01_K03','Ketena 03 of Woreda 01',818,'V',
+VALUES ('821',821,'AR1K3','Ketena 03 of Woreda 01',818,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6373,7 +6373,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('822',822,'AA_AR_W01_K04','Ketena 04 of Woreda 01',818,'V',
+VALUES ('822',822,'AR1K4','Ketena 04 of Woreda 01',818,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6381,7 +6381,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('823',823,'AA_AR_W01_K05','Ketena 05 of Woreda 01',818,'V',
+VALUES ('823',823,'AR1K5','Ketena 05 of Woreda 01',818,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6389,7 +6389,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('824',824,'AA_AR_W02','Woreda 02',817,'W',
+VALUES ('824',824,'ARW02','Woreda 02',817,'W',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6397,7 +6397,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('825',825,'AA_AR_W02_K01','Ketena 01 of Woreda 02',824,'V',
+VALUES ('825',825,'AR2K1','Ketena 01 of Woreda 02',824,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6405,7 +6405,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('826',826,'AA_AR_W02_K02','Ketena 02 of Woreda 02',824,'V',
+VALUES ('826',826,'AR2K2','Ketena 02 of Woreda 02',824,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6413,7 +6413,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('827',827,'AA_AR_W02_K03','Ketena 03 of Woreda 02',824,'V',
+VALUES ('827',827,'AR2K3','Ketena 03 of Woreda 02',824,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6421,7 +6421,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('828',828,'AA_AR_W02_K04','Ketena 04 of Woreda 02',824,'V',
+VALUES ('828',828,'AR2K4','Ketena 04 of Woreda 02',824,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6429,7 +6429,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('829',829,'AA_AR_W02_K05','Ketena 05 of Woreda 02',824,'V',
+VALUES ('829',829,'AR2K5','Ketena 05 of Woreda 02',824,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6437,7 +6437,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('830',830,'AA_AR_W03','Woreda 03',817,'W',
+VALUES ('830',830,'ARW03','Woreda 03',817,'W',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6445,7 +6445,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('831',831,'AA_AR_W03_K01','Ketena 01 of Woreda 03',830,'V',
+VALUES ('831',831,'AR3K1','Ketena 01 of Woreda 03',830,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6453,7 +6453,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('832',832,'AA_AR_W03_K02','Ketena 02 of Woreda 03',830,'V',
+VALUES ('832',832,'AR3K2','Ketena 02 of Woreda 03',830,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6461,7 +6461,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('833',833,'AA_AR_W03_K03','Ketena 03 of Woreda 03',830,'V',
+VALUES ('833',833,'AR3K3','Ketena 03 of Woreda 03',830,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6469,7 +6469,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('834',834,'AA_AR_W03_K04','Ketena 04 of Woreda 03',830,'V',
+VALUES ('834',834,'AR3K4','Ketena 04 of Woreda 03',830,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6477,7 +6477,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('835',835,'AA_AR_W03_K05','Ketena 05 of Woreda 03',830,'V',
+VALUES ('835',835,'AR3K5','Ketena 05 of Woreda 03',830,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6485,7 +6485,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('836',836,'AA_AR_W04','Woreda 04',817,'W',
+VALUES ('836',836,'ARW04','Woreda 04',817,'W',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6493,7 +6493,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('837',837,'AA_AR_W04_K01','Ketena 01 of Woreda 04',836,'V',
+VALUES ('837',837,'AR4K1','Ketena 01 of Woreda 04',836,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6501,7 +6501,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('838',838,'AA_AR_W04_K02','Ketena 02 of Woreda 04',836,'V',
+VALUES ('838',838,'AR4K2','Ketena 02 of Woreda 04',836,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6509,7 +6509,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('839',839,'AA_AR_W04_K03','Ketena 03 of Woreda 04',836,'V',
+VALUES ('839',839,'AR4K3','Ketena 03 of Woreda 04',836,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6517,7 +6517,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('840',840,'AA_AR_W04_K04','Ketena 04 of Woreda 04',836,'V',
+VALUES ('840',840,'AR4K4','Ketena 04 of Woreda 04',836,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6525,7 +6525,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('841',841,'AA_AR_W04_K05','Ketena 05 of Woreda 04',836,'V',
+VALUES ('841',841,'AR4K5','Ketena 05 of Woreda 04',836,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6533,7 +6533,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('842',842,'AA_AR_W05','Woreda 05',817,'W',
+VALUES ('842',842,'ARW05','Woreda 05',817,'W',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6541,7 +6541,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('843',843,'AA_AR_W05_K01','Ketena 01 of Woreda 05',842,'V',
+VALUES ('843',843,'AR5K1','Ketena 01 of Woreda 05',842,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6549,7 +6549,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('844',844,'AA_AR_W05_K02','Ketena 02 of Woreda 05',842,'V',
+VALUES ('844',844,'AR5K2','Ketena 02 of Woreda 05',842,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6557,7 +6557,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('845',845,'AA_AR_W05_K03','Ketena 03 of Woreda 05',842,'V',
+VALUES ('845',845,'AR5K3','Ketena 03 of Woreda 05',842,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6565,7 +6565,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('846',846,'AA_AR_W05_K04','Ketena 04 of Woreda 05',842,'V',
+VALUES ('846',846,'AR5K4','Ketena 04 of Woreda 05',842,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6573,7 +6573,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('847',847,'AA_AR_W05_K05','Ketena 05 of Woreda 05',842,'V',
+VALUES ('847',847,'AR5K5','Ketena 05 of Woreda 05',842,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6581,7 +6581,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('848',848,'AA_AR_W06','Woreda 06',817,'W',
+VALUES ('848',848,'ARW06','Woreda 06',817,'W',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6589,7 +6589,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('849',849,'AA_AR_W06_K01','Ketena 01 of Woreda 06',848,'V',
+VALUES ('849',849,'AR6K1','Ketena 01 of Woreda 06',848,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6597,7 +6597,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('850',850,'AA_AR_W06_K02','Ketena 02 of Woreda 06',848,'V',
+VALUES ('850',850,'AR6K2','Ketena 02 of Woreda 06',848,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6605,7 +6605,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('851',851,'AA_AR_W06_K03','Ketena 03 of Woreda 06',848,'V',
+VALUES ('851',851,'AR6K3','Ketena 03 of Woreda 06',848,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6613,7 +6613,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('852',852,'AA_AR_W06_K04','Ketena 04 of Woreda 06',848,'V',
+VALUES ('852',852,'AR6K4','Ketena 04 of Woreda 06',848,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6621,7 +6621,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('853',853,'AA_AR_W06_K05','Ketena 05 of Woreda 06',848,'V',
+VALUES ('853',853,'AR6K5','Ketena 05 of Woreda 06',848,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6629,7 +6629,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('854',854,'AA_AR_W07','Woreda 07',817,'W',
+VALUES ('854',854,'ARW07','Woreda 07',817,'W',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6637,7 +6637,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('855',855,'AA_AR_W07_K01','Ketena 01 of Woreda 07',854,'V',
+VALUES ('855',855,'AR7K1','Ketena 01 of Woreda 07',854,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6645,7 +6645,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('856',856,'AA_AR_W07_K02','Ketena 02 of Woreda 07',854,'V',
+VALUES ('856',856,'AR7K2','Ketena 02 of Woreda 07',854,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6653,7 +6653,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('857',857,'AA_AR_W07_K03','Ketena 03 of Woreda 07',854,'V',
+VALUES ('857',857,'AR7K3','Ketena 03 of Woreda 07',854,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6661,7 +6661,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('858',858,'AA_AR_W07_K04','Ketena 04 of Woreda 07',854,'V',
+VALUES ('858',858,'AR7K4','Ketena 04 of Woreda 07',854,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6669,7 +6669,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('859',859,'AA_AR_W07_K05','Ketena 05 of Woreda 07',854,'V',
+VALUES ('859',859,'AR7K5','Ketena 05 of Woreda 07',854,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6677,7 +6677,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('860',860,'AA_AR_W08','Woreda 08',817,'W',
+VALUES ('860',860,'ARW08','Woreda 08',817,'W',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6685,7 +6685,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('861',861,'AA_AR_W08_K01','Ketena 01 of Woreda 08',860,'V',
+VALUES ('861',861,'AR8K1','Ketena 01 of Woreda 08',860,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6693,7 +6693,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('862',862,'AA_AR_W08_K02','Ketena 02 of Woreda 08',860,'V',
+VALUES ('862',862,'AR8K2','Ketena 02 of Woreda 08',860,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6701,7 +6701,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('863',863,'AA_AR_W08_K03','Ketena 03 of Woreda 08',860,'V',
+VALUES ('863',863,'AR8K3','Ketena 03 of Woreda 08',860,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6709,7 +6709,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('864',864,'AA_AR_W08_K04','Ketena 04 of Woreda 08',860,'V',
+VALUES ('864',864,'AR8K4','Ketena 04 of Woreda 08',860,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6717,7 +6717,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('865',865,'AA_AR_W08_K05','Ketena 05 of Woreda 08',860,'V',
+VALUES ('865',865,'AR8K5','Ketena 05 of Woreda 08',860,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6725,7 +6725,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('866',866,'AA_AR_W09','Woreda 09',817,'W',
+VALUES ('866',866,'ARW09','Woreda 09',817,'W',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6733,7 +6733,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('867',867,'AA_AR_W09_K01','Ketena 01 of Woreda 09',866,'V',
+VALUES ('867',867,'AR9K1','Ketena 01 of Woreda 09',866,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6741,7 +6741,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('868',868,'AA_AR_W09_K02','Ketena 02 of Woreda 09',866,'V',
+VALUES ('868',868,'AR9K2','Ketena 02 of Woreda 09',866,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6749,7 +6749,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('869',869,'AA_AR_W09_K03','Ketena 03 of Woreda 09',866,'V',
+VALUES ('869',869,'AR9K3','Ketena 03 of Woreda 09',866,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6757,7 +6757,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('870',870,'AA_AR_W09_K04','Ketena 04 of Woreda 09',866,'V',
+VALUES ('870',870,'AR9K4','Ketena 04 of Woreda 09',866,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6765,7 +6765,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('871',871,'AA_AR_W09_K05','Ketena 05 of Woreda 09',866,'V',
+VALUES ('871',871,'AR9K5','Ketena 05 of Woreda 09',866,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6773,7 +6773,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('872',872,'AA_AR_W10','Woreda 10',817,'W',
+VALUES ('872',872,'ARW10','Woreda 10',817,'W',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6781,7 +6781,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('873',873,'AA_AR_W10_K01','Ketena 01 of Woreda 10',872,'V',
+VALUES ('873',873,'AR10K1','Ketena 01 of Woreda 10',872,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6789,7 +6789,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('874',874,'AA_AR_W10_K02','Ketena 02 of Woreda 10',872,'V',
+VALUES ('874',874,'AR10K2','Ketena 02 of Woreda 10',872,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6797,7 +6797,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('875',875,'AA_AR_W10_K03','Ketena 03 of Woreda 10',872,'V',
+VALUES ('875',875,'AR10K3','Ketena 03 of Woreda 10',872,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6805,7 +6805,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('876',876,'AA_AR_W10_K04','Ketena 04 of Woreda 10',872,'V',
+VALUES ('876',876,'AR10K4','Ketena 04 of Woreda 10',872,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
 
@@ -6813,10 +6813,9 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES ('877',877,'AA_AR_W10_K05','Ketena 05 of Woreda 10',872,'V',
+VALUES ('877',877,'AR10K5','Ketena 05 of Woreda 10',872,'V',
 CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,
 NULL,NULL,NULL,NULL,gen_random_uuid());
-
  
 -- tblHFSublevel
 INSERT INTO "tblHFSublevel" ("HFSublevel", "HFSublevelDesc", "SortOrder", "AltLanguage") VALUES (N'I', N'Integrated', NULL, NULL);
