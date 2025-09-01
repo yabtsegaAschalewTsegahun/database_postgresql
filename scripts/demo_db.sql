@@ -6342,7 +6342,7 @@ INSERT INTO "tblLocations"
 ("RowId","LocationId","LocationCode","LocationName","ParentLocationId",
  "LocationType","ValidityFrom","ValidityTo","LegacyID","AuditUserId",
  "MalePopulation","FemalePopulation","OtherPopulation","Families","LocationUUID")
-VALUES (818,818,'AA_AR_01','Woreda 01',817,'W',CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,NULL,NULL,NULL,NULL,gen_random_uuid());
+VALUES ('818',818,'AA_AR_01','Woreda 01',817,'W',CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,NULL,NULL,NULL,NULL,gen_random_uuid());
 INSERT INTO "tblLocations" VALUES ('819',819,'AA_AR_01_','Ketena 01',818,'V',CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,NULL,NULL,NULL,NULL,gen_random_uuid());
 INSERT INTO "tblLocations" VALUES ('820',820,'AA_AR_01_','Ketena 02',818,'V',CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,NULL,NULL,NULL,NULL,gen_random_uuid());
 INSERT INTO "tblLocations" VALUES ('821',821,'AA_AR_01_','Ketena 03',818,'V',CAST(N'2024-01-01T00:00:00.000' AS timestamptz),NULL,NULL,1,NULL,NULL,NULL,NULL,gen_random_uuid());
